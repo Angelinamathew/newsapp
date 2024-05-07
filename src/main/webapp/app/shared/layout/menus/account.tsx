@@ -8,6 +8,9 @@ const accountMenuItemsAuthenticated = () => (
     <MenuItem icon="wrench" to="/account/settings" data-cy="settings">
       Settings
     </MenuItem>
+    <MenuItem icon="book" to="/account/bookmarks" data-cy="bookmarks">
+      Bookmark
+    </MenuItem>
     <MenuItem icon="lock" to="/account/password" data-cy="passwordItem">
       Password
     </MenuItem>
