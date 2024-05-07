@@ -90,12 +90,12 @@ const Navbar = () => {
                 <SearchRoundedIcon /> SEARCH
               </Link>
             </li>
-            <div className="nav-item">
+            {/* <div className="nav-item">
               <a className="user" href="#" onClick={toggleDropdown}>
                 <AccountCircleIcon /> PROFILE
                 {dropdownOpen && <Dropdown />}
               </a>
-            </div>
+            </div> */}
           </ul>
         </div>
       </div>
