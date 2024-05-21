@@ -10,8 +10,6 @@ Orange Street Media is a web app whose primary goal is to bring world class news
 
 ![image](https://github.com/Team-Fisher/newsapp/assets/70657515/d47450dd-0ce1-4a76-aea3-e56d06f49c69)
 
- ![image](https://github.com/Team-Fisher/newsapp/assets/70657515/ce0fc7f5-0ce1-4b9e-a364-c236cdea1df9)
-
  ![image](https://github.com/Team-Fisher/newsapp/assets/70657515/15b1e6e6-2dee-4fe2-aa1d-89491875373a)
 
  ![image](https://github.com/Team-Fisher/newsapp/assets/70657515/58f07167-5a51-48bd-9537-1bc3d264e6b4)
