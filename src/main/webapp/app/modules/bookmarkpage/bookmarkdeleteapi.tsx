@@ -1,7 +1,7 @@
 // Define a function to delete bookmarks by sending a DELETE request to the server
 const DeleteBookmarks = async (articleID: number, userID: number) => {
   // Define the URL of the API endpoint
-  const url = 'http://localhost:8080/api/bookmarks';
+  const url = 'http://localhost:8318/api/bookmarks';
   // INSERT TOKEN HERE BUT DON'T FORGET TO REMOVE IT BEFORE MERGING
   // Token used for authorization, should be provided by the backend
   const token =

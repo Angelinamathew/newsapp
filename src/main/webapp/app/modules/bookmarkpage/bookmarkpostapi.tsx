@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 
 const PostBookmarks = async (articleID: number, userID: number) => {
-  const url = 'http://localhost:8080/api/bookmarks';
+  const url = 'http://localhost:8318/api/bookmarks';
 
   const requestBody = JSON.stringify({
     articleId: articleID,

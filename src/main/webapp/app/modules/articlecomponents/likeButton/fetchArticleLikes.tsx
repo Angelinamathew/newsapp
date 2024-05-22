@@ -1,5 +1,5 @@
 const FetchArticleLikes = async () => {
-  const url = 'http://localhost:8080/api/likes'; //url address to access the api
+  const url = 'http://localhost:8318/api/likes'; //url address to access the api
 
   const token =
     sessionStorage.getItem('jhi-authenticationToken')?.substring(1, sessionStorage.getItem('jhi-authenticationToken').length - 1) || '';
