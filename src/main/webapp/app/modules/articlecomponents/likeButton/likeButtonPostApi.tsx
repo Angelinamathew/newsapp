@@ -1,6 +1,6 @@
 //function for posting the likes
 const PostLikes = async (articleID: number, userID: number, likeCOUNT: number) => {
-  const url = 'http://localhost:8080/api/likes';
+  const url = 'http://localhost:8318/api/likes';
 
   const token =
     sessionStorage.getItem('jhi-authenticationToken')?.substring(1, sessionStorage.getItem('jhi-authenticationToken').length - 1) || '';

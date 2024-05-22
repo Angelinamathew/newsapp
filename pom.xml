@@ -424,7 +424,7 @@
                                 <arg>/entrypoint.sh</arg>
                             </entrypoint>
                             <ports>
-                                <port>8080</port>
+                                <port>8318</port>
                             </ports>
                             <environment>
                                 <SPRING_OUTPUT_ANSI_ENABLED>ALWAYS</SPRING_OUTPUT_ANSI_ENABLED>
@@ -969,7 +969,7 @@
                 <profile.test>testprod</profile.test>
                 <liquibase-plugin.hibernate-dialect>org.hibernate.dialect.PostgreSQLDialect</liquibase-plugin.hibernate-dialect>
                 <liquibase-plugin.driver>org.postgresql.Driver</liquibase-plugin.driver>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/newsproject</liquibase-plugin.url>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:8319/newsproject</liquibase-plugin.url>
                 <liquibase-plugin.username>newsproject</liquibase-plugin.username>
                 <liquibase-plugin.password/>
             </properties>

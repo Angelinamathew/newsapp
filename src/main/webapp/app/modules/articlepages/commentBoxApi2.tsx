@@ -1,5 +1,5 @@
 const GetComments = async (articleID: number) => {
-  const url = `http://localhost:8080/api/comments/getComments?articleId=${articleID}`;
+  const url = `http://localhost:8318/api/comments/getComments?articleId=${articleID}`;
 
   try {
     const token =

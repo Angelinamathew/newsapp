@@ -1,5 +1,5 @@
 const PostComments = async (articleID: number, userID: number, commentTEXT: String) => {
-  const url = 'http://localhost:8080/api/comments';
+  const url = 'http://localhost:8318/api/comments';
 
   const requestBody = JSON.stringify({
     commentText: commentTEXT,

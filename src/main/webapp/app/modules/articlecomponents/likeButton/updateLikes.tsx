@@ -1,6 +1,6 @@
 //the function is used to send a patch request(update just the likecount field)
 const UpdateLikes = async (id: number, likeCOUNT: number) => {
-  const url = 'http://localhost:8080/api/likes/' + id; //send the id in the url, patchmapping require it
+  const url = 'http://localhost:8318/api/likes/' + id; //send the id in the url, patchmapping require it
 
   const token =
     'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcxNTY1MTAwNSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzE1NTY0NjA1fQ.YJZUU1VW275dhPzaicgzRLpaV9y63w24TKxX-PW4-nYex46FW0J2oN_50uie6h_h_v-57UJbHbyDpWHBKgh2JA';

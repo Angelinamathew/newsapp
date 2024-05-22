@@ -1,5 +1,5 @@
 const FetchBookmarks = async () => {
-  const url = 'http://localhost:8080/api/bookmarks';
+  const url = 'http://localhost:8318/api/bookmarks';
 
   try {
     const token =
